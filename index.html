@@ -6,6 +6,22 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Inhaltsverzeichnis</title>
 	</head>
+	<style>
+		form {
+			display: flex;
+			flex-direction: column;
+			max-width: 20rem;
+		}
+		label {
+			margin: 1rem 0;
+			display: flex;
+			flex-direction: column;
+		}
+		input[type="submit"], input[type="reset"] {
+			width: fit-content;
+		}
+		  input
+	</style>
 	<body>
 		<nav>
 			<ul>
@@ -16,5 +32,38 @@
 				</li>
 			</ul>
 		</nav>
+		<main>
+			<h3>Form</h3>
+			<form>
+				<label>
+					Name
+					<input type="text" placeholder="Maxi Mustermensch" />
+				</label>
+				<label>
+					E-Mail
+					<input type="email" placeholder="mustermensch@mail.de" />
+				</label>
+				<label>
+					Upload
+					<input type="file" />
+				</label>
+				<label>
+					Texteingabe
+					<textarea placeholder="Schreibe einen Text"></textarea>
+				</label>
+				<label>
+					Bestätigung
+					<input type="checkbox" />
+				</label>
+				<label>
+					Senden
+					<input type="submit" />
+				</label>
+				<label>
+					Zurücksetzen
+					<input type="reset" />
+				</label>
+			</form>
+		</main>
 	</body>
 </html>
