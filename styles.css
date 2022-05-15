@@ -1,0 +1,43 @@
+* {
+	font-family: "IBM Plex Serif", serif;
+}
+
+section {
+	margin: 4rem 0;
+}
+
+h1,
+h2,
+h4,
+blockquote,
+dt,
+cite {
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+blockquote {
+	color: #deab49;
+	font-weight: 400;
+}
+
+p {
+	font-family: "IBM Plex Serif", serif;
+	font-size: 1rem;
+	color: #3c3c3b;
+}
+
+/* intro */
+.intro > * {
+	color: #6f6f6e;
+	font-family: "IBM Plex Sans", sans-serif;
+}
+
+.intro h1 {
+	font-size: 2.5rem;
+}
+
+/* user-exp-design */
+
+.user-exp-design h2 {
+	/*  */
+}
