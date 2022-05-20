@@ -1,0 +1,27 @@
+@font-face {
+	font-family: IBM Plex Sans;
+	font-weight: 400;
+	font-style: normal;
+	src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: IBM Plex Sans;
+	font-weight: 400;
+	font-style: italic;
+	src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Italic.ttf");
+}
+
+@font-face {
+	font-family: IBM Plex Sans;
+	font-weight: 700;
+	font-style: normal;
+	src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: IBM Plex Serif;
+	font-weight: 400;
+	font-style: normal;
+	src: url("../assets/fonts/IBM_Plex_Serif/IBMPlexSerif-Regular.ttf");
+}
