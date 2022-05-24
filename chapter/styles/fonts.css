@@ -20,6 +20,13 @@
 }
 
 @font-face {
+	font-family: IBM Plex Sans;
+	font-weight: 600;
+	font-style: italic;
+	src: url("../assets/fonts/IBM_Plex_Sans/IBMPlexSans-SemiBoldItalic.ttf");
+}
+
+@font-face {
 	font-family: IBM Plex Serif;
 	font-weight: 400;
 	font-style: normal;
