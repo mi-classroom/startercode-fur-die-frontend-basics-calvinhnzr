@@ -1,3 +1,12 @@
 :root {
 	--color-quote: #deab49;
+	--color-dark-grey: #3c3c3b;
+	--color-grey: #6f6f6e;
+	--color-light-grey: #9d9c9c;
+	--color-lighter-grey: #f1f1f1;
+	--font-size-s: 1rem;
+	--font-size-m: 1rem;
+	--font-size-l: 1.5rem;
+	--font-size-xl: 2.5rem;
+	--line-height: 1.3;
 }

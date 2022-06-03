@@ -1,0 +1,30 @@
+aside.image {
+	position: relative;
+	background-color: var(--color-lighter-grey);
+	padding: 0rem 0 2rem;
+	margin: 2rem 0;
+}
+
+aside.image::before {
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: var(--color-lighter-grey);
+	top: 0;
+	left: calc((100vw - 100%) / -2);
+	width: calc((100vw - 100%) / 2);
+	z-index: -1;
+	height: 100%;
+}
+
+aside.image::after {
+	content: "";
+	display: block;
+	position: absolute;
+	background-color: var(--color-lighter-grey);
+	top: 0;
+	right: calc((100vw - 100%) / -2);
+	width: calc((100vw - 100%) / 2);
+	z-index: -1;
+	height: 100%;
+}
