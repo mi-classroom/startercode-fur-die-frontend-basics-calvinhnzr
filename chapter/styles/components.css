@@ -1,3 +1,30 @@
+/* intro */
+
+.intro h1 {
+	font-size: var(--font-size-xl);
+	font-weight: 700;
+	color: var(--color-grey);
+	width: fit-content;
+	padding-bottom: 0.5rem;
+	border-bottom: 0.3rem solid var(--color-grey);
+	margin-bottom: 0.75rem;
+}
+
+.intro h1::before {
+	content: "2.3";
+	font-size: 2rem;
+	display: block;
+	width: fit-content;
+	margin-bottom: 0.75rem;
+}
+
+.intro p {
+	font-family: "IBM Plex Sans", sans-serif;
+	color: var(--color-grey);
+}
+
+/* full width image */
+
 aside.image {
 	position: relative;
 	background-color: var(--color-lighter-grey);
